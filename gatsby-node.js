@@ -59,6 +59,7 @@ exports.createPages = ({ graphql, actions }) => {
               context: {
                 cosmicBucket: `${process.env.COSMIC_BUCKET}`,
                 readKey: `${process.env.COSMIC_READ_KEY}`,
+                writeKey: `${process.env.COSMIC_WRITE_KEY}`,
                 title: slug,
               }
             })
